@@ -1,11 +1,11 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   
-  "include": ["src"],
+  "include": ["docs"],
   "exclude": ["dist"],
   "compilerOptions": {
     // File Layout
-    "rootDir": "./src",
+    "rootDir": "./docs",
     "outDir": "./dist",
     "module": "nodenext",
     "target": "esnext",
