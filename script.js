@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let deletedCount = 0;
 document.addEventListener("click", (event) => {
     const target = event.target;
@@ -10,4 +8,5 @@ document.addEventListener("click", (event) => {
         target.remove();
     }
 });
+export {};
 //# sourceMappingURL=script.js.map

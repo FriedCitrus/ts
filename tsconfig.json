@@ -7,7 +7,7 @@
     // File Layout
     "rootDir": "./docs",
     "outDir": "./dist",
-    "module": "nodenext",
+    "module": "esnext",
     "target": "esnext",
     "strict": true,
 
