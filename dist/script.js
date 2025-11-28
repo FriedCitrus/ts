@@ -1,4 +1,5 @@
 let deletedCount = 0;
+import { CursorGifTracker } from './modules/gifplayer/gifplayer.js';
 document.addEventListener("click", (event) => {
     const target = event.target;
     if (target && target !== document.body && target !== document.documentElement) {
@@ -8,5 +9,7 @@ document.addEventListener("click", (event) => {
         target.remove();
     }
 });
-export {};
+document.addEventListener('DOMContentLoaded', () => {
+    const gifTracker = new CursorGifTracker();
+});
 //# sourceMappingURL=script.js.map
